@@ -1,0 +1,145 @@
+.product{
+display: flex;
+}
+.product-card
+{
+    display: flex;
+    width: 78%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.prod-inner.card {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.filter-products
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* width: 20%; */
+    margin:10px;
+    height: 86vh;
+}
+.filter-products>span{
+    padding-bottom: 20px;
+}
+.title{
+    font-size: 30px;
+}
+.filter-section
+{
+   
+height: 100%;
+  width: 20%;
+  position: fixed; 
+  z-index: 1;
+  top: 80px; 
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.cartitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cartItemImg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .cartItemDetail {
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    flex-direction: column;
+  }
+  .dropdown-menu {
+
+    left: -100px !important;
+ 
+}  
+
+.home {
+    display: flex;
+  }
+  
+  .filters {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+    height: 86vh;
+  }
+  
+  .filters > span {
+    padding-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 30px;
+  }
+  
+  .productContainer {
+    display: flex;
+    width: 78%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .products {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .summary {
+    width: 30%;
+  }
+
+  /* Media Queries */
+@media (max-width: 771px) {
+    .filters {
+      width: 40%;
+      padding: 10px;
+      margin: 5px;
+    }
+  
+    .filters > span {
+      font-size: 10px;
+    }
+  
+    .title {
+      font-size: 18px !important;
+    }
+  
+    .productContainer {
+      width: 58%;
+      padding: 0;
+    }
+  
+    .search {
+      display: none !important;
+    }
+  
+    .products {
+      width: 100%;
+    }
+  }
